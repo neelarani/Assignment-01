@@ -346,3 +346,223 @@ body {
   border-radius: 16px;
 }
 /* Inspiration section style ends here */
+
+/* My target container style starts here */
+.target-container {
+  max-width: 1200px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.my-current-target {
+  width: 852px;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+}
+.my-current-target h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+}
+
+.my-current-target p {
+  width: 852px;
+  height: 102px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 26px;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.my-current-target-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 80px;
+  gap: 10px;
+}
+.target-box {
+  width: 364px;
+  height: 299px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+}
+.target-box:nth-child(1) {
+  background: rgba(255, 76, 30, 0.05);
+}
+.target-box:nth-child(2) {
+  background: rgba(0, 76, 232, 0.05);
+}
+.target-box:nth-child(3) {
+  background: rgba(255, 233, 0, 0.05);
+}
+
+.my-current-target-container .html-box .css-box .js-box {
+  width: 284px;
+  height: 215px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: flex-start;
+}
+.target-content {
+  margin-top: 32px 0px;
+}
+
+.target-content p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.target-content .learn-m {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: left;
+  text-decoration: underline;
+  margin: 16px 0px;
+}
+/* My target container style ends here */
+
+/* My Next Target container style starts here */
+.my-next-target-container {
+  max-width: 1200px;
+  height: 866px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 111px;
+}
+.my-next-target-content h2 {
+  width: 852px;
+  height: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 800;
+  color: rgb(13, 19, 33);
+  text-align: center;
+}
+
+.my-next-target-content p {
+  width: 852px;
+  height: 53px;
+  margin-top: 48px 0px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400px;
+  text-align: center;
+}
+
+.box-container {
+  width: 100%;
+  height: 705px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 24px;
+  margin-top: 20px;
+}
+.my-target-box {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  height: 219px;
+  border: 2px solid red;
+  padding: 40px;
+}
+#image img {
+  width: 95px;
+  height: 85px;
+}
+
+.my-target-box-content {
+  width: 940px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: flex-start;
+  border: 2px solid red;
+}
+/* My Next Target container style ends here */
+
+/* support container style starts here */
+.support-container {
+  max-width: 1200px;
+  height: 314px;
+  background-image: url(/assets/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  padding: 64px 48px 64px 48px;
+}
+
+.support-section-content {
+  width: 1044px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  position: relative;
+}
+.support-section-content h2 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.support-section-content p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.support-section-content input {
+  width: 548px;
+  height: 50px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+.support-section-content .sub-btn {
+  width: 120px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+/* support container style starts here */
