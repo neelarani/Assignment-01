@@ -388,7 +388,7 @@ body {
   justify-content: space-between;
   margin: 0 auto;
   margin-top: 80px;
-  gap: 10px;
+  gap: 12px;
 }
 .target-box {
   width: 364px;
@@ -439,22 +439,96 @@ body {
 /* My target container style ends here */
 
 /* My Next Target container style starts here */
-.my-next-target-container {
+
+.my-next-target-section {
   max-width: 1200px;
-  height: 866px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  justify-content: flex-start;
   align-items: center;
   margin-top: 111px;
+  margin-bottom: 40px;
 }
+
 .my-next-target-content h2 {
-  width: 852px;
-  height: 37px;
+  font-size: 32px;
+  font-weight: 800;
+  color: rgb(13, 19, 33);
+  text-align: center;
+}
+
+.my-next-target-content p {
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.box-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  margin-top: 48px;
+}
+
+.box {
+  display: flex;
   align-items: center;
+  width: 100%;
+  height: 219px;
+  margin-top: 24px;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: rgb(255, 255, 255);
+  border-radius: 16px;
+}
+.box img {
+  width: 94.78px;
+  height: 84.41px;
+  margin-right: 20px;
+}
+
+.reactjs-content,
+.nodejs-content,
+.mongodb-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.reactjs-content h2,
+.nodejs-content h2,
+.mongodb-content h2 {
+  margin: 0 0 10px 0;
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.reactjs-content p,
+.nodejs-content p,
+.mongodb-content p {
+  margin: 0 0 10px 0;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.learn-m-btn {
+  display: inline-block;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration-line: underline;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.my-next-target-content h2 {
   margin: 0 auto;
   font-size: 32px;
   font-weight: 800;
@@ -463,49 +537,34 @@ body {
 }
 
 .my-next-target-content p {
-  width: 852px;
-  height: 53px;
   margin-top: 48px 0px;
-  justify-content: center;
   text-align: center;
   margin-top: 20px;
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400px;
-  text-align: center;
 }
-
 .box-container {
-  width: 100%;
+  width: 1200px;
   height: 705px;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  gap: 24px;
-  margin-top: 20px;
+  margin-top: 65px;
 }
-.my-target-box {
-  max-width: 1200px;
-  display: flex;
-  flex-direction: column;
+#box {
+  width: 1200px;
   height: 219px;
-  border: 2px solid red;
+  margin-top: 24px;
+  background: rgba(13, 19, 33, 0.15);
   padding: 40px;
 }
-#image img {
-  width: 95px;
-  height: 85px;
-}
 
-.my-target-box-content {
-  width: 940px;
-  height: 96px;
+.reactjs-content {
+  width: 941.22px;
+  height: 139px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  justify-content: flex-start;
-  border: 2px solid red;
 }
+*/
+
 /* My Next Target container style ends here */
 
 /* support container style starts here */
@@ -523,6 +582,8 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
   padding: 64px 48px 64px 48px;
+  border-radius: 16px;
+  margin-top: 300px;
 }
 
 .support-section-content {
@@ -563,6 +624,43 @@ body {
   width: 120px;
   height: 50px;
   border-radius: 8px;
+  background: rgb(255, 255, 255);
 }
 
-/* support container style starts here */
+/* support container style ends here */
+
+/* Footer container style starts here */
+.footer-container {
+  max-width: 1200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px 150px 32px 150px;
+  margin: 0 auto;
+  border: 2px solid red;
+  margin-top: 40px;
+  background: rgba(13, 19, 33, 0.03);
+  border-radius: 16px;
+}
+
+.footer-content {
+  width: 1000px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid red;
+}
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icons img {
+  width: 14.25px;
+  height: 28.25px;
+}
+
+/* Footer container style ends here */
