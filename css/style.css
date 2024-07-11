@@ -563,7 +563,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-*/
 
 /* My Next Target container style ends here */
 
@@ -583,9 +582,8 @@ body {
   background-blend-mode: overlay;
   padding: 64px 48px 64px 48px;
   border-radius: 16px;
-  margin-top: 300px;
+  margin-top: 40px;
 }
-
 .support-section-content {
   width: 1044px;
   height: 190px;
@@ -625,6 +623,7 @@ body {
   height: 50px;
   border-radius: 8px;
   background: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 /* support container style ends here */
